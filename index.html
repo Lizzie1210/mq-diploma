@@ -8,10 +8,17 @@
 </head>
 <body>
 <header class="header">
+  <div class="header-container-banner">
+    <picture>
+      <source media="(max-width: 640px)" srcset="https://i.postimg.cc/W4x6DK3T/banner-mobile.jpg">
+      <source media="(max-width: 1200px)" srcset="https://i.postimg.cc/4d6Rd8M1/banner-bg-tablet.jpg">
+      <img src="https://i.postimg.cc/c4HqCC4s/banner-bg.jpg" alt="banner"  class="header-img">
+      </picture>
+    </div>
     <div class="header-menu-container">
+      <button class="burger"></button>
       <nav class="menu">
-        <button class="burger"></button>
-        <ul class="menu-list">
+         <ul class="menu-list">
           <li class="menu-list-item"><a href="#">Главная</a></li>
           <li class="menu-list-item"><a href="#">Посты</a></li>
           <li class="menu-list-item"><a href="#">Статьи</a></li>
@@ -47,7 +54,7 @@
     </article>
     <article class="topic">
       <div class="trend-two">
-        <div class="trend-text">
+        <div class="trend-text-cheese">
           <nav class="trend-categories">
             <ul class="trend-categories-list">
               <li class="trend-categories-list-item">Food</li>
@@ -84,7 +91,6 @@
 </nav>
 <main class="main">
   <div class="main-container">
-
     <section class="post-list">
       <article class="post">
         <div class="post-preview">
@@ -272,23 +278,23 @@
       <div class="categories">
         <h3 class="categories-title">Темы</h3>
         <div class="categories-container">
-          <div class="category-beauty">Красота
-            <div class="indicator-beauty">12</div>
+          <div class="category category__beauty">Красота
+            <div class="indicator">12</div>
           </div>
-          <div class="category-health">Здоровье
-            <div class="indicator-health">4</div>
+          <div class="category category__health">Здоровье
+            <div class="indicator">4</div>
           </div>
-          <div class="category-lifestyle">Образ жизни
-            <div class="indicator-lifestyle">145</div>
+          <div class="category category__lifestyle">Образ жизни
+            <div class="indicator">145</div>
           </div>
-          <div class="category-music">Музыка
-            <div class="indicator-music">28</div>
+          <div class="category category__music">Музыка
+            <div class="indicator">28</div>
           </div>
-          <div class="category-sport">Спорт
-            <div class="indicator-sport">62</div>
+          <div class="category category__sport">Спорт
+            <div class="indicator">62</div>
           </div>
-          <div class="category-yoga">Йога
-            <div class="indicator-yoga">8</div>
+          <div class="category category__yoga">Йога
+            <div class="indicator">8</div>
           </div>
         </div>
       </div>
@@ -379,4 +385,3 @@
   </div>
   <div class="copyright">Copyright © 2009-2019 City Blog LLC…</div>
 </footer>
-</body>
